@@ -42,6 +42,7 @@ class Perpustakaan:
                 "class": DVD,
                 "fields": [
                     ("sutradara", "Sutradara"),
+                    ("bidang_ilmu", "Bidang Ilmu"),
                     ("durasi", "Durasi (menit)")
                 ]
             }

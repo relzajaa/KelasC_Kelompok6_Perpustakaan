@@ -9,7 +9,7 @@ class Buku(Koleksi):
 
     def tampilkan_data(self,  nomor):
         return(
-            f"Koleksi {nomor}   : [Buku Fiksi]\n"
+            f"Koleksi {nomor}   : [Buku]\n"
             f"Kode Koleksi      : {self.kode}\n"
             f"Judul             : {self.judul}\n"
             f"Tahun Rilis       : {self.tahun}\n"
