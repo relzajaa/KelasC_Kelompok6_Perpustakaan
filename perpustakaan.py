@@ -5,7 +5,7 @@ from dvd import DVD
 
 
 class Perpustakaan:
-    INPUT_WIDTH = 15
+    INPUT_WIDTH = 16
 
     def __init__(self):
         self.daftar_koleksi = []
