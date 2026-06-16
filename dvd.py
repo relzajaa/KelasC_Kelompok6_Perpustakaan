@@ -6,8 +6,8 @@ class DVD(Koleksi):
         self.bidang_ilmu = bidang_ilmu
         self.sutradara   = sutradara
         self.durasi      = durasi
-
-    def tampilkan_data(self, nomor):
+        
+    def tampilkan_data(self,  nomor):
         return(
             f"Koleksi {nomor}   : [DVD Film Dokumenter]\n"
             f"Kode Koleksi      : {self.kode}\n"
