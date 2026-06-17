@@ -1,10 +1,10 @@
 from koleksi import Koleksi
 
 class DVD(Koleksi):
-    def __init__(self, kode, judul, tahun, penerbit, bidang_ilmu, sutradara, durasi):
+    def __init__(self, kode, judul, tahun, penerbit, sutradara, bidang_ilmu, durasi):
         super().__init__(kode, judul, tahun, penerbit)
-        self.bidang_ilmu = bidang_ilmu
         self.sutradara   = sutradara
+        self.bidang_ilmu = bidang_ilmu
         self.durasi      = durasi
 
     def tampilkan_data(self,  nomor):
